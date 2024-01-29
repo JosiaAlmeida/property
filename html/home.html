@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ango Arrenda</title>
+    <style> 
+        /* Estilos CSS Personalizados */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #aa875d;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #aa875d;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        } 
+
+        nav {
+            background-color: #f1e5d8;
+            padding: 10px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 10px;
+        }
+        
+        nav li a {
+            color: #aa875d;
+            text-decoration: none;
+        }
+
+        #banner {
+            background-color: #f1e5d8;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #imoveis {
+            background-color: #f1e5d8;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .imovel {
+            width: calc(33.33% - 40px);
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .imovel h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .imovel p {
+            font-weight: bold;
+        }
+
+        .imovel a.button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            background-color: #f1e5d8;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .imovel a.button:hover {
+            background-color: #c6ab90;
+        }
+
+        .imovel.imovel1 {
+            background-image: url("caminho/do/imagem1.jpg");
+        }
+
+        .imovel.imovel2 {
+            background-image: url("c:\Users\hp\Pictures\IMG_7476.png");
+        }
+
+        .imovel.imovel3 {
+            background-image: url("caminho/do/imagem3.jpg");
+        }
+
+        .imovel.imovel4 {
+            background-image: url("caminho/do/imagem4.jpg");
+        }
+
+        .imovel.imovel5 {
+            background-image: url("caminho/do/imagem5.jpg");
+        }
+
+        .imovel.imovel6 {
+            background-image: url("caminho/do/imagem6.jpg");
+        }
+
+        footer {
+            background-color: #aa875d;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+
+        footer img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="caminho/do/logo.png" alt="Logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Imóveis</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="banner">
+        <h2>Bem-vindo ao nosso site de arrendamento imobiliário!</h2>
+        <p>Encontre o imóvel perfeito para suas necessidades.</p>
+    </section>
+
+    <section id="imoveis">
+        
+        <div class="imovel imovel1">
+            <h3>Imóvel 1</h3>
+            <p>kz 1.000/mês</p>
+            <a href="pagina_detalhes_imovel_1.html" class="button">Ver Detalhes</a>
+        </div>
+        <div class="imovel imovel2">
+            <h3>Imóvel 2</h3>
+            <p>kz 1.500/mês</p>
+            <a href="pagina_detalhes_imovel_2.html" class="button">Ver Detalhes</a>
+        </div>
+        <div class="imovel imovel3">
+            <h3>Imóvel 3</h3>
+            <p>kz 2.000/mês</p>
+            <a href="pagina_detalhes_imovel_3.html" class="button">Ver Detalhes</a>
+        </div>
+        <div class="imovel imovel4">
+            <h3>Imóvel 4</h3>
+            <p>kz 1.800/mês</p>
+            <a href="pagina_detalhes_imovel_4.html" class="button">Ver Detalhes</a>
+        </div>
+        <div class="imovel imovel5">
+            <h3>Imóvel 5</h3>
+            <p>kz 2.500/mês</p>
+            <a href="pagina_detalhes_imovel_5.html" class="button">Ver Detalhes</a>
+        </div>
+        <div class="imovel imovel6">
+            <h3>Imóvel 6</h3>
+            <p>kz 3.000/mês</p>
+            <a href="pagina_detalhes_imovel_6.html" class="button">Ver Detalhes</a>
+        </div>
+    </section>
+
+    <footer>
+        <img src="logo.png" alt="Logo">
+        <p>© 2024 Arrendamento Imobiliário. ISPTEC.</p>
+   
